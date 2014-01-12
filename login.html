@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> User Login </title>
+<link rel="stylesheet" type="text/css" href="boxes4.css" />
+</head>
+<script type="text/javascript" src="check_form_validate.js"></script>
+<h1 style="text-align:center; color:black"> User Login </h1><br/><br/>
+<body background = "1.png">
+<form name = "form1" action = "login.php" method = "post" onsubmit="return checkscript()">
+
+<table border=2 style=text-align:center; align=center width=400>
+<tr><label for = "firstname"><td>First name: </td></label><td><input type = "text" name = "firstname"></td></tr>
+<tr><label for = "lastname"><td>Last name: </td></label><td><input type = "text" name = "lastname"></td></tr>
+<tr><label for = "pass1"><td>Enter Password: </td></label><td><input type = "password" name = "pass1"></td></tr>
+</table><br/><br/><br/>
+<table border=0 style=text-align:center; align=center width=400>
+<tr><td><input class="button" type="submit" value="Log in" style="height: 40px; width: 300px;font-size:25px;font-weight=bold"></td></tr>
+</table>
+
+</form>
+
+<style type="text/css">
+label{
+float: left;
+width: 120px;
+       font-weight: bold;
+}
+input, textarea{
+width: 200px;
+       margin-bottom: 9px;
+}
+br{
+clear: left;
+}
+</style>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<title>Add Menu Items</title>
+<body background="1.png">
+<h1 style="text-align:center"> Add Menu Items </h1><br/>
+<script type="text/javascript" src="check_form_validate.js"></script>
+<form name = "form1" action="add_menu.php" method = "post" onsubmit="return checkscript()">
+<table border=2 style=text-align:center; align=center width=500>
+<tr><label for = "food_name"><td>Name </td></label><td><input type="text" name="food_name"/></td></tr>
+<tr><label for = "food_price"><td>Price </td></label><td><input type="text" name="food_price"/></td></tr>
+<tr><label for = "food_typr"><td>Type </td></label><td><input type="text" name="food_type"/></td></tr>
+<tr><label for = "food_category"><td>Category </td></label><td><input type="text" name="food_category"/></td></tr>
+</table><br/>
+<table border=0 style=text-align:center; align=center><tr><td><input type="submit" name="submitbutton" value="Add"></td></tr></table>
+</form>
+<style type="text/css">
+label{
+float: left;
+width: 120px;
+font-weight: bold;
+}
+input, textarea{
+width: 200px;
+margin-bottom: 9px;
+}
+br{
+clear: left;
+}
+</style>
+</body>
+</html>

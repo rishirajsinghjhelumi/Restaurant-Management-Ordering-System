@@ -1,0 +1,30 @@
+<html>
+<title>Add Ingredient</title>
+<body background="1.png">
+<h1 style="text-align:center"> Add Ingredient </h1><br/>
+<script type="text/javascript" src="check_form_validate.js"></script>
+<form name = "form1" action="add_ingredient.php" method = "post" onsubmit="return checkscript()">
+<table border=2 style=text-align:center; align=center width=500>
+<tr><label for = "Name"><td>Name </td></label><td><input type="text" name="Name"/></td></tr>
+<tr><label for = "Quantity"><td>Quantity </td></label><td><input type="text" name="Quantity"/></td></tr>
+<tr><label for = "Description"><td>Description </td></label><td><input type="text" name="Description"/></td></tr>
+<tr><label for = "Supplier_name"><td>Supplier Name </td></label><td><input type="text" name="Supplier_name"/></td></tr>
+</table><br/>
+<table border=0 style=text-align:center; align=center><tr><td><input type="submit" name="submitbutton" value="Add"></td></tr></table>
+</form>
+<style type="text/css">
+label{
+float: left;
+width: 120px;
+font-weight: bold;
+}
+input, textarea{
+width: 200px;
+margin-bottom: 9px;
+}
+br{
+clear: left;
+}
+</style>
+</body>
+</html>

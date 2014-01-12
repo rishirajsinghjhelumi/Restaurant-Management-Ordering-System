@@ -1,0 +1,56 @@
+<html>
+<head>
+<title> Employee Registration </title>
+</head>
+<body>
+<h1 style="text-align:center;"> Employee Registration </h1><br/>
+<body background = "1.png">
+<script type="text/javascript" src="check_form_validate.js"></script>
+<form name = "form1" action = "add_employee.php" method = "post" onsubmit="return checkscript()">
+
+<table border=2 style=text-align:center; align=center width=500>
+<tr><label for = "firstname"><td>First name:</td> </label><td><input type = "text" name = "firstname"><br/></td></tr>
+<tr><label for = "lastname"><td>Last name: </td></label><td><input type = "text" name = "lastname"><br/></td></tr>
+<tr><label for = "contact"><td>Contact: </td></label><td><input type ="text" name = "contact"><br/></td></tr>
+<tr><label for = "salary"><td>Salary: </td></label><td><input type = "text" name = "salary"><br/></td></tr>
+<tr><label for = "address"><td>Address: </td></label><td><input type = "text" name = "address"><br/></td></tr>
+<tr><td>Sex:</td>
+<td>
+<table border=0 style=text-align:left; align=center>
+<tr><td><input type="radio" name="sex" value="Male"></td><td>Male</td></tr>
+<tr><td><input type="radio" name="sex" value="Female"></td><td>Female</td></tr>
+</table>
+</td></tr>
+<tr><label for = "bdate"><td>Birth Date: </td></label><td><input type = "text" name = "bdate"><br/></td></tr>
+<tr><label for = "joindate"><td>Join Date: </td></label><td><input type = "text" name = "joindate"><br/></td></tr>
+<tr><td>Type:</td>
+<td>
+<table border=0 align=center style="text-align:left;">
+<tr><td><input type="radio" name="type" value="MANAGER"></td><td>Manager</td></tr>
+<tr><td><input type="radio" name="type" value="WAITER"></td><td>Waiter</td></tr>
+<tr><td><input type="radio" name="type" value="COOK"></td><td>Cook</td></tr>
+<tr><td><input type="radio" name="type" value="CASHIER"></td><td>Cashier</td></tr>
+<tr><td><input type="radio" name="type" value="DELIVERY_BOY"></td><td>Delivery boy</td></tr>
+</table>
+</td></tr>
+</table><br/>
+<table border=0 style=text-align:center; align=center><tr><td><input type="submit" name="submitbutton" value="Add"></td></tr></table>
+
+</form>
+
+<style type="text/css">
+label{
+float: left;
+width: 120px;
+font-weight: bold;
+}
+input, textarea{
+width: 200px;
+margin-bottom: 9px;
+}
+br{
+clear: left;
+}
+</style>
+</body>
+</html>
